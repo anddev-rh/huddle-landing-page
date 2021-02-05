@@ -7,27 +7,33 @@
 html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
+  
 }
 
 body {
+  width: 100vw;
+  overflow-x: unset;
   background-color: hsl(257, 40%, 49%);
-
+  background-image: url('../images/bg-mobile.svg');
+  background-size: contain;
+  background-position: initial;
+  background-repeat: no-repeat; 
+  
 }
 
 header {
 position: relative;
 display: inline-block;
-width: 100%;
-min-width: 400px;
+min-width: fit-content;
 height: 397px;
 margin: 0 auto;
-background-image: url('../images/bg-mobile.svg');
-background-size: contain;
+/*  background-image: url('../images/bg-mobile.svg');
+background-size: auto;
 background-position: initial;
-background-repeat: no-repeat;
+background-repeat: no-repeat;  */
 }
 
-.logo-container img {
+ .logo-container img {
   display: inline-block;
   width: 150px;
   margin: 3rem;
@@ -40,3 +46,73 @@ background-repeat: no-repeat;
   margin: 3rem;
   padding-left: 1rem;
 }
+ 
+
+main div {
+  display: inline-block;
+  text-align: center;
+  color: #ffffff;
+  width: 100vw;
+}
+
+main div h1 {
+  padding: 1rem;
+  margin: 0 2rem;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 2.5rem;
+ 
+
+} 
+
+ main div p {
+  padding: 1rem;
+  margin: 0 2.5rem;
+  font-family: Open Sans;
+  font-weight: 400;
+  line-height:2.5rem;
+  font-size: 1.6rem;
+
+
+} 
+
+ main div button {
+  margin: 2rem;
+  padding: 12px 75px;
+  border-radius: 50px;
+  /* para quitar el recuadro molesto al rededor */
+  outline: none; 
+  border: none;
+  font-family: Poppins;
+  color: hsl(257, 40%, 49%);
+  box-shadow: black 2px 2px 7px 0px;
+  cursor: pointer;
+}
+ 
+
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+}
+
+.social-media-icons img {
+  position: relative;
+  width: 30px;
+  margin: 0.5rem;
+  filter: invert(100);
+
+}
+
+/* @media (min-width: 400px) {
+
+  header {
+    background-size: cover;
+  }
+  
+}
+   */

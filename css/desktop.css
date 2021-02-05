@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  background-image: url('../images/bg-desktop.svg') ;
+  background-position: inherit;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.logo-container img {
+  display: inline-block;
+  width: 250px;
+  margin: 6rem;
+  padding-left: 2rem;
+}
+
+
+main div button:hover {
+  background-color: hsl(300, 69%, 71%);
+}
+
+.preview-container {
+  display: flex;
+}
+
+.preview-container img {
+  width: 900px;
+  margin: 4rem;
+  padding-left: 4rem;
+}
+ 
+main {
+  display: flex;
+}
+
+main div {
+  text-align: center;
+  color: #ffffff;
+}
