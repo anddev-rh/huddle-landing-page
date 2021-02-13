@@ -1,13 +1,13 @@
 body {
-  height: 100vh;
+  height: 100%;
   background-image: url('../images/bg-desktop.svg') ;
   background-position: inherit;
   background-repeat: no-repeat;
-  display: flex;
+  display: inline-block;
 }
 
 .logo-container img {
-  display: inline-block;
+  /* display: inline-block; */
   width: 250px;
   margin: 6rem;
   padding-left: 2rem;
