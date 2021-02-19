@@ -89,3 +89,7 @@ main div button {
   margin-left:15px ;
   width: 40px;
 }
+
+.social-media-icons img:hover {
+  filter: drop-shadow(2px 4px 6px black);
+}
