@@ -11,21 +11,18 @@ html {
 }
 
 body {
-  width: 100vw;
-  overflow-x: unset;
+  width: 100%;
   background-color: hsl(257, 40%, 49%);
   background-image: url('../images/bg-mobile.svg');
-  background-size: contain;
-  background-position: initial;
+  background-size: 100%;
+  background-position: inherit;
   background-repeat: no-repeat; 
   
 }
 
 header {
-position: relative;
-display: inline-block;
-min-width: fit-content;
-height: 397px;
+display: flex;
+width: 100%;
 margin: 0 auto;
 /*  background-image: url('../images/bg-mobile.svg');
 background-size: auto;
@@ -61,6 +58,7 @@ main div h1 {
   font-family: Poppins;
   font-weight: 600;
   font-size: 2.5rem;
+  line-height: 5px;
  
 
 } 
@@ -68,6 +66,7 @@ main div h1 {
  main div p {
   padding: 1rem;
   margin: 0 2.5rem;
+  margin-top: 2rem;
   font-family: Open Sans;
   font-weight: 400;
   line-height:2.5rem;
@@ -84,6 +83,7 @@ main div h1 {
   outline: none; 
   border: none;
   font-family: Poppins;
+  font-size: 18px;
   color: hsl(257, 40%, 49%);
   box-shadow: black 2px 2px 7px 0px;
   cursor: pointer;
@@ -105,8 +105,10 @@ main div h1 {
   width: 30px;
   margin: 0.5rem;
   filter: invert(100);
-
 }
+
+
+
 
 /* @media (min-width: 400px) {
 
