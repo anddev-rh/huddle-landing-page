@@ -72,10 +72,10 @@ main div button {
   margin: 2rem 0;
 }
 
-/* main div button:hover {
+main div button:hover {
   background-color: hsl(300, 69%, 71%);
   color: white;
-} */
+} 
 
 .footer {
   position: absolute;
